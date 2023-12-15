@@ -27,3 +27,11 @@ Based on following requirements:
 ###    and combine them into a complete application
 ### 6. Refine if needed
 
+
+### Description of changes:
+- Added Tkinter for displaying messages
+- Added definition of save and load functions to be called by respective buttons
+- Functions are based on numpy save and load methods, as writing with pickle proved to be not working properly
+- Factory method was used to implement button creation, as main grid drawing and
+	cell generting functions are stable and there is no forseeable reason to change the behaviour of those
+
